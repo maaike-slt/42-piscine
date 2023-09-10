@@ -6,7 +6,7 @@
 /*   By: msloot <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/10 14:29:54 by msloot            #+#    #+#             */
-/*   Updated: 2023/09/10 17:48:47 by msloot           ###   ########.fr       */
+/*   Updated: 2023/09/10 18:42:44 by msloot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ void	ft_putnbr(int nb)
 	}
 	else if (nb > 9)
 	{
-		ft_putchar(nb / 10 + '0');
+		ft_putnbr(nb / 10);
 		ft_putchar(nb % 10 + '0');
 	}
 	else
@@ -44,6 +44,7 @@ int	main(void)
 {
 	ft_putnbr(42);
 	ft_putnbr(-42);
+	ft_putnbr(100);
 	ft_putnbr(-5375768);
 	ft_putnbr(-1);
 	ft_putnbr(0);
