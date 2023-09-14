@@ -6,11 +6,9 @@
 /*   By: msloot <msloot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/12 12:20:10 by msloot            #+#    #+#             */
-/*   Updated: 2023/09/12 22:00:31 by msloot           ###   ########.fr       */
+/*   Updated: 2023/09/14 10:27:35 by msloot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
 
 char	*ft_strcpy(char *dest, char *src)
 {
@@ -27,6 +25,9 @@ char	*ft_strcpy(char *dest, char *src)
 }
 
 /*
+
+#include <stdio.h>
+
 int	main(void)
 {
 	char	dest[42];

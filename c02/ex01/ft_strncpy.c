@@ -6,7 +6,7 @@
 /*   By: msloot <msloot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/12 12:20:10 by msloot            #+#    #+#             */
-/*   Updated: 2023/09/12 22:36:17 by msloot           ###   ########.fr       */
+/*   Updated: 2023/09/14 10:28:09 by msloot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,9 @@ char	*ft_strncpy(char *dest, char *src, unsigned int n)
 }
 
 /*
+
+#include <stdio.h>
+
 int	main(void)
 {
 	char	dest[42];

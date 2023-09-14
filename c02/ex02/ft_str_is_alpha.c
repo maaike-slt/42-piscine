@@ -6,7 +6,7 @@
 /*   By: msloot <msloot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/12 22:38:03 by msloot            #+#    #+#             */
-/*   Updated: 2023/09/12 23:06:09 by msloot           ###   ########.fr       */
+/*   Updated: 2023/09/14 10:29:11 by msloot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,9 @@ int	ft_str_is_alpha(char *str)
 }
 
 /*
+
+#include <unistd.h>
+
 int	main(void)
 {
 	char	c;
