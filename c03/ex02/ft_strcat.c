@@ -1,54 +1,54 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strncpy.c                                       :+:      :+:    :+:   */
+/*   ft_strcat.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: msloot <msloot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/12 12:20:10 by msloot            #+#    #+#             */
-/*   Updated: 2023/09/14 10:28:09 by msloot           ###   ########.fr       */
+/*   Created: 2023/09/14 12:03:11 by msloot            #+#    #+#             */
+/*   Updated: 2023/09/14 14:22:57 by msloot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char	*ft_strncpy(char *dest, char *src, unsigned int n)
+int	ft_strlen(char *str)
 {
 	unsigned int	i;
 
 	i = 0;
-	while (i < n && src[i] != '\0')
+	while (str[i] != '\0')
 	{
-		dest[i] = src[i];
 		i++;
 	}
-	while (i < n)
+	return (i);
+}
+
+char	*ft_strcat(char *dest, char *src)
+{
+	unsigned int	src_i;
+	unsigned int	dest_i;
+
+	dest_i = ft_strlen(dest);
+	src_i = 0;
+	while (src[src_i] != '\0')
 	{
-		dest[i] = '\0';
-		i++;
+		dest[dest_i] = src[src_i];
+		dest_i++;
+		src_i++;
 	}
+	dest[dest_i] = '\0';
 	return (dest);
 }
 
 /*
-
 #include <stdio.h>
 
 int	main(void)
 {
-	char	dest[42];
-	char	src[42];
+	char	src[42] = "pen";
+	char	dest[42] = "apple";
 
-	src[0] = '\0';
-	dest[0] = '\0';
-
-	printf("'%s' '%s'\n", src, dest);
-
-	ft_strncpy(src, "pizza", 21);
-	ft_strncpy(dest, src, 3);
-
-	printf("'%s' '%s'\n", src, dest);
-
-	ft_strncpy(dest, src, 10);
-
-	printf("'%s' '%s'\n", src, dest);
+	printf("%s %s \n", src, dest);
+	ft_strcat(dest, src);
+	printf("%s %s", src, dest);
 }
 */
