@@ -6,11 +6,13 @@
 /*   By: msloot <msloot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/17 13:17:34 by msloot            #+#    #+#             */
-/*   Updated: 2023/09/17 13:46:50 by msloot           ###   ########.fr       */
+/*   Updated: 2023/09/17 23:03:45 by msloot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_strlen(char *str)
+#include <stddef.h>
+
+unsigned int	ft_strlen(char *str)
 {
 	unsigned int	i;
 
@@ -40,8 +42,8 @@ int	ft_strncmp(char *s1, char *s2, unsigned int n)
 
 char	*ft_strstr(char *str, char *to_find)
 {
-	unsigned int i;
-	int	to_find_len;
+	unsigned int	i;
+	unsigned int	to_find_len;
 
 	i = 0;
 	to_find_len = ft_strlen(to_find);
@@ -49,6 +51,18 @@ char	*ft_strstr(char *str, char *to_find)
 	{
 		if (ft_strncmp(&str[i], to_find, to_find_len) == 0)
 			return (&str[i]);
+		i++;
 	}
-	return("NULL");
+	return (NULL);
+}
+
+#include <stdio.h>
+
+int	main(void)
+{
+	printf("%s\n", ft_strstr("penapple", "app"));
+	printf("%s\n", ft_strstr("penaple", "app"));
+	printf("%s\n", ft_strstr("", "app"));
+	printf("%s\n", ft_strstr("penapple", ""));
+	printf("%s\n", ft_strstr("", ""));
 }
