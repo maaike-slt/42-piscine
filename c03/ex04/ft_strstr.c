@@ -6,7 +6,7 @@
 /*   By: msloot <msloot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/17 13:17:34 by msloot            #+#    #+#             */
-/*   Updated: 2023/09/17 23:03:45 by msloot           ###   ########.fr       */
+/*   Updated: 2023/09/18 10:45:29 by msloot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,6 +56,7 @@ char	*ft_strstr(char *str, char *to_find)
 	return (NULL);
 }
 
+/*
 #include <stdio.h>
 
 int	main(void)
@@ -66,3 +67,4 @@ int	main(void)
 	printf("%s\n", ft_strstr("penapple", ""));
 	printf("%s\n", ft_strstr("", ""));
 }
+*/

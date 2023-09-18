@@ -6,7 +6,7 @@
 /*   By: msloot <msloot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/14 14:49:20 by msloot            #+#    #+#             */
-/*   Updated: 2023/09/14 17:12:31 by msloot           ###   ########.fr       */
+/*   Updated: 2023/09/18 10:23:05 by msloot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,7 +39,7 @@ char	*ft_strncat(char *dest, char *src, unsigned int nb)
 	return (dest);
 }
 
-
+/*
 #include <stdio.h>
 
 int	main(void)
@@ -52,4 +52,4 @@ int	main(void)
 	ft_strncat(dest, src, nb);
 	printf("%s %s", src, dest);
 }
-
+*/
