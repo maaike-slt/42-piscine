@@ -6,7 +6,7 @@
 /*   By: msloot <msloot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/19 15:38:36 by msloot            #+#    #+#             */
-/*   Updated: 2023/09/19 19:14:38 by msloot           ###   ########.fr       */
+/*   Updated: 2023/09/19 21:00:55 by msloot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,22 +14,11 @@
 
 int	ft_recursive_factorial(int nb)
 {
-	int	fact;
-	int	i;
-
-	fact = 1;
-	i = 1;
 	if (nb < 0)
 		return (0);
 	if (nb == 0)
 		return (1);
-	if (i <= nb && i  > 0)
-	{
-		fact *= i;
-		i++;
-		ft_recursive_factorial(nb -= 1);
-	}
-	return (fact);
+	return (nb * ft_recursive_factorial(nb - 1));
 }
 
 int	main(void)
