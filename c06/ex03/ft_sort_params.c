@@ -6,7 +6,7 @@
 /*   By: msloot <msloot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/20 15:00:36 by msloot            #+#    #+#             */
-/*   Updated: 2023/09/20 17:18:14 by msloot           ###   ########.fr       */
+/*   Updated: 2023/09/20 22:46:41 by msloot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,32 +45,40 @@ int	ft_strcmp(char *s1, char *s2)
 	return (s1[i] - s2[i]);
 }
 
-int	ft_swap_params(char **swp)
+void	ft_sort_params(char **argv)
 {
-	int	i;
-	int	p;
-	char	*temp;
+	int		small;
+	int		i;
+	char	*tmp;
 
-	i = 1;
-	p = 1;
-	if (swp[p] && ft_strcmp(swp[i], swp[p]) <= 0)
-		p++;
-	while (swp[i])
+	small = 1;
+	while (argv[small])
 	{
-		if (swp[p] > swp[i])
+		i = small + 1;
+		while (argv[i])
 		{
-			temp = swp[i];
-			swp[i] = swp[p];
-			swp[p] = temp;
+			if (ft_strcmp(argv[small], argv[i]) >= 0)
+			{
+				tmp = argv[small];
+				argv[small] = argv[i];
+				argv[i] = tmp;
+			}
+			i++;
 		}
-		i++;
+		small++;
 	}
 }
 
 int	main(int argc, char *argv[])
 {
-	if (argc <= 1)
-		return (0);
-	while (argc > 1)
+	int	i;
 
+	ft_sort_params(argv);
+	i = 1;
+	while (i < argc)
+	{
+		ft_putstr(argv[i]);
+		write(1, "\n", 1);
+		i++;
+	}
 }
