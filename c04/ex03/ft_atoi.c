@@ -6,11 +6,9 @@
 /*   By: msloot <msloot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/17 16:33:56 by msloot            #+#    #+#             */
-/*   Updated: 2023/09/17 19:45:22 by msloot           ###   ########.fr       */
+/*   Updated: 2023/09/20 11:31:19 by msloot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <stdio.h>
 
 int	ft_isnum(char c)
 {
@@ -46,6 +44,7 @@ int	ft_atoi(char *str)
 }
 
 /*
+#include <stdio.h>
 #include <stdlib.h>
 
 int	main(void)
