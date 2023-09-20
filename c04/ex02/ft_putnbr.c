@@ -6,7 +6,7 @@
 /*   By: msloot <msloot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/17 16:23:33 by msloot            #+#    #+#             */
-/*   Updated: 2023/09/17 16:24:25 by msloot           ###   ########.fr       */
+/*   Updated: 2023/09/20 10:24:03 by msloot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,6 +40,7 @@ void	ft_putnbr(int nb)
 	}
 }
 
+/*
 int	main(void)
 {
 	ft_putnbr(42);
@@ -51,3 +52,4 @@ int	main(void)
 	ft_putnbr(9);
 	ft_putnbr(-2147483648);
 }
+*/
