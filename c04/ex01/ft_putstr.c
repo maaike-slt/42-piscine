@@ -6,7 +6,7 @@
 /*   By: msloot <msloot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/17 16:22:13 by msloot            #+#    #+#             */
-/*   Updated: 2023/09/20 10:23:40 by msloot           ###   ########.fr       */
+/*   Updated: 2023/09/20 11:29:01 by msloot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	ft_strlen(char *str)
 {
-	size_t	i;
+	int	i;
 
 	i = 0;
 	while (str[i] != '\0')
@@ -24,12 +24,12 @@ int	ft_strlen(char *str)
 	return (i);
 }
 
-/*
 void	ft_putstr(char *str)
 {
 	write(1, str, ft_strlen(str));
 }
 
+/*
 int	main(void)
 {
 	ft_putstr("hello");
