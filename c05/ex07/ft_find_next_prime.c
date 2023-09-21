@@ -6,7 +6,7 @@
 /*   By: msloot <msloot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/19 22:14:22 by msloot            #+#    #+#             */
-/*   Updated: 2023/09/19 22:36:41 by msloot           ###   ########.fr       */
+/*   Updated: 2023/09/21 14:49:44 by msloot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,6 +41,7 @@ int	ft_find_next_prime(int nb)
 	return (nb);
 }
 
+/*
 #include <stdio.h>
 
 int	main(void)
@@ -54,3 +55,4 @@ int	main(void)
 		i++;
 	}
 }
+*/

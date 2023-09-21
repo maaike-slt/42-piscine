@@ -6,11 +6,9 @@
 /*   By: msloot <msloot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/19 15:38:36 by msloot            #+#    #+#             */
-/*   Updated: 2023/09/19 21:29:58 by msloot           ###   ########.fr       */
+/*   Updated: 2023/09/21 14:48:11 by msloot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <stdio.h>
 
 int	ft_iterative_power(int nb, int power)
 {
@@ -29,6 +27,9 @@ int	ft_iterative_power(int nb, int power)
 	return (pow);
 }
 
+/*
+#include <stdio.h>
+
 int	main(void)
 {
 	printf("%d\n", ft_iterative_power(5, 3));
@@ -44,3 +45,4 @@ int	main(void)
 	printf("%d\n", ft_iterative_power(5, 1));
 	printf("%d\n", ft_iterative_power(42, 21));
 }
+*/

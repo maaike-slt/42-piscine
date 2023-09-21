@@ -6,7 +6,7 @@
 /*   By: msloot <msloot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/19 21:48:57 by msloot            #+#    #+#             */
-/*   Updated: 2023/09/19 22:09:53 by msloot           ###   ########.fr       */
+/*   Updated: 2023/09/21 14:49:13 by msloot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,7 @@ int	ft_sqrt(int nb)
 	return (0);
 }
 
+/*
 #include <stdio.h>
 #include <limits.h>
 
@@ -42,3 +43,4 @@ int	main(void)
 	printf("%d\n", ft_sqrt(INT_MAX));
 	printf("%d\n", ft_sqrt(INT_MIN));
 }
+*/
