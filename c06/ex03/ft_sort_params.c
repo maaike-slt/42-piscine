@@ -6,7 +6,7 @@
 /*   By: msloot <msloot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/20 15:00:36 by msloot            #+#    #+#             */
-/*   Updated: 2023/09/25 12:11:59 by msloot           ###   ########.fr       */
+/*   Updated: 2023/09/25 12:18:26 by msloot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,7 +69,6 @@ void	ft_sort_params(char **argv)
 	}
 }
 
-/*
 int	main(int argc, char *argv[])
 {
 	int	i;
@@ -83,4 +82,3 @@ int	main(int argc, char *argv[])
 		i++;
 	}
 }
-*/
