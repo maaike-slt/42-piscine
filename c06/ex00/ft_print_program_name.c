@@ -6,7 +6,7 @@
 /*   By: msloot <msloot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/20 10:50:05 by msloot            #+#    #+#             */
-/*   Updated: 2023/09/25 12:25:16 by msloot           ###   ########.fr       */
+/*   Updated: 2023/09/25 12:27:31 by msloot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,13 +16,13 @@ int	ft_strlen(char *str)
 {
 	int	i;
 
-	i++;
+	i = 0;
 	while (str[i] != '\0')
 		i++;
 	return (i);
 }
 
-int	main(int argc, char *argv)
+int	main(int argc, char *argv[])
 {
 	(void)argc;
 	write(1, argv[0], ft_strlen(argv[0]));
