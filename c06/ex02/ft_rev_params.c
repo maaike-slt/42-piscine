@@ -6,7 +6,7 @@
 /*   By: msloot <msloot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/20 12:03:44 by msloot            #+#    #+#             */
-/*   Updated: 2023/09/20 14:56:44 by msloot           ###   ########.fr       */
+/*   Updated: 2023/09/25 12:11:40 by msloot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,7 @@ void	ft_putstr(char *str)
 	write(1, str, ft_strlen(str));
 }
 
+/*
 int	main(int argc, char *argv[])
 {
 	if (argc <= 1)
@@ -40,3 +41,4 @@ int	main(int argc, char *argv[])
 		write(1, "\n", 1);
 	}
 }
+*/
