@@ -6,7 +6,7 @@
 /*   By: msloot <msloot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/20 11:04:03 by msloot            #+#    #+#             */
-/*   Updated: 2023/09/25 12:11:03 by msloot           ###   ########.fr       */
+/*   Updated: 2023/09/25 12:29:25 by msloot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,6 @@ int	ft_strlen(char *str)
 	return (i);
 }
 
-/*
 int	main(int argc, char *argv[])
 {
 	int	i;
@@ -40,4 +39,3 @@ int	main(int argc, char *argv[])
 		}
 	}
 }
-*/
