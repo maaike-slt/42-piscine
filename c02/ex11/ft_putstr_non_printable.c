@@ -6,7 +6,7 @@
 /*   By: msloot <msloot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/21 12:08:44 by msloot            #+#    #+#             */
-/*   Updated: 2023/09/25 20:22:06 by msloot           ###   ########.fr       */
+/*   Updated: 2023/09/25 20:27:08 by msloot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,6 +46,7 @@ void	ft_putstr_non_printable(char *str)
 	}
 }
 
+/*
 #include <stdio.h>
 
 int	main(void)
@@ -59,3 +60,4 @@ int	main(void)
 	ft_putstr_non_printable("");
 	write(1, "\n", 1);
 }
+*/
