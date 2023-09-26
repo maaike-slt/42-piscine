@@ -6,7 +6,7 @@
 /*   By: msloot <msloot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/13 12:52:20 by msloot            #+#    #+#             */
-/*   Updated: 2023/09/13 13:01:15 by msloot           ###   ########.fr       */
+/*   Updated: 2023/09/26 11:18:05 by msloot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,7 @@ int	ft_str_is_lowercase(char *str)
 	return (1);
 }
 
+/*
 #include <unistd.h>
 
 int	main(void)
@@ -37,3 +38,4 @@ int	main(void)
 	c = ft_str_is_lowercase("") + '0';
 	write(1, &c, 1);
 }
+*/

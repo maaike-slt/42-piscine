@@ -6,7 +6,7 @@
 /*   By: msloot <msloot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/21 11:50:40 by msloot            #+#    #+#             */
-/*   Updated: 2023/09/21 12:05:01 by msloot           ###   ########.fr       */
+/*   Updated: 2023/09/26 11:20:45 by msloot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,6 +39,7 @@ unsigned int	ft_strlcpy(char *dest, char *src, unsigned int size)
 	return (i);
 }
 
+/*
 #include <stdio.h>
 
 int	main(void)
@@ -60,3 +61,4 @@ int	main(void)
 	printf("%s: %u\n", src, ft_strlen(src));
 	printf("%s: %u\n", dest, ft_strlen(dest));
 }
+*/

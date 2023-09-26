@@ -6,7 +6,7 @@
 /*   By: msloot <msloot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/13 18:48:16 by msloot            #+#    #+#             */
-/*   Updated: 2023/09/13 18:58:15 by msloot           ###   ########.fr       */
+/*   Updated: 2023/09/26 11:19:45 by msloot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,7 @@ char	*ft_strlowcase(char *str)
 	return (str);
 }
 
+/*
 #include <stdio.h>
 
 int	main(void)
@@ -33,3 +34,4 @@ int	main(void)
 	char	str[] = "hEl42Lo";
 	printf("%s", ft_strlowcase(str));
 }
+*/
