@@ -6,7 +6,7 @@
 /*   By: msloot <msloot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/27 08:58:49 by msloot            #+#    #+#             */
-/*   Updated: 2023/09/27 09:26:41 by msloot           ###   ########.fr       */
+/*   Updated: 2023/09/27 20:26:42 by msloot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,7 +46,7 @@ int	ft_strjoin_len(int size, char **strs, char *sep)
 	int	sep_len;
 
 	if (size == 0)
-		return (1);
+		return (0);
 	ret = 0;
 	i = 0;
 	while (i < size)
