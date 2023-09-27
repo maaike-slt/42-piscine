@@ -6,7 +6,7 @@
 /*   By: msloot <msloot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/27 11:48:51 by msloot            #+#    #+#             */
-/*   Updated: 2023/09/27 12:29:42 by msloot           ###   ########.fr       */
+/*   Updated: 2023/09/27 23:05:35 by msloot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,7 +46,7 @@ int	ft_atoi_base(char *str, char *base)
 	while (str[i] == '+' || str[i] == '-')
 		if (str[i++] == '-')
 			sign = -sign;
-	while (str[i] != '\0')
+	while (str[i] != '\0' && index_in_base(base, str[i]) != -1)
 	{
 		if (index_in_base(base, str[i]) == -1)
 			return (0);
