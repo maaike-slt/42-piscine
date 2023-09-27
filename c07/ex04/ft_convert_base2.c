@@ -6,7 +6,7 @@
 /*   By: msloot <msloot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/27 10:55:10 by msloot            #+#    #+#             */
-/*   Updated: 2023/09/27 12:27:43 by msloot           ###   ########.fr       */
+/*   Updated: 2023/09/27 17:24:53 by msloot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,6 +36,13 @@ int	is_c_in_str(char *str, char c)
 	return (0);
 }
 
+int	ft_is_whitespace(char c)
+{
+	if ((c > 8 && c < 14) || c == ' ')
+		return (1);
+	return (0);
+}
+
 int	is_valid_base(char *base)
 {
 	int	i;
@@ -49,7 +56,7 @@ int	is_valid_base(char *base)
 	{
 		if (i + 1 < len && is_c_in_str(base + i + 1, base[i]))
 			return (0);
-		if (base[i] == '-' || base[i] == '+')
+		if (base[i] == '-' || base[i] == '+' || ft_is_whitespace(base[i]))
 			return (0);
 		i++;
 	}
