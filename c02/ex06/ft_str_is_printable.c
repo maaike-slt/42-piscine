@@ -6,14 +6,12 @@
 /*   By: msloot <msloot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/13 15:42:15 by msloot            #+#    #+#             */
-/*   Updated: 2023/09/13 15:51:33 by msloot           ###   ########.fr       */
+/*   Updated: 2023/09/26 11:44:27 by msloot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-
 int	ft_str_is_printable(char *str)
-	{
+{
 	int	i;
 
 	i = 0;
@@ -26,6 +24,9 @@ int	ft_str_is_printable(char *str)
 	return (1);
 }
 
+/*
+#include <unistd.h>
+
 int	main(void)
 {
 	char	c;
@@ -37,3 +38,4 @@ int	main(void)
 	c = ft_str_is_printable("") + '0';
 	write(1, &c, 1);
 }
+*/

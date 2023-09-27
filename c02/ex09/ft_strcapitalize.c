@@ -6,7 +6,7 @@
 /*   By: msloot <msloot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/13 19:04:26 by msloot            #+#    #+#             */
-/*   Updated: 2023/09/13 21:10:10 by msloot           ###   ########.fr       */
+/*   Updated: 2023/09/26 11:20:26 by msloot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,6 +39,8 @@ char	*ft_strcapitalize(char *str)
 }
 
 /*
+#include <stdio.h>
+
 int	main(void)
 {
 	char	str[] = "salut, comment tu vas ? 42mots quarante-deux; cinquante+et+un";

@@ -6,11 +6,9 @@
 /*   By: msloot <msloot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/13 16:53:35 by msloot            #+#    #+#             */
-/*   Updated: 2023/09/13 17:53:40 by msloot           ###   ########.fr       */
+/*   Updated: 2023/09/26 11:40:27 by msloot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <stdio.h>
 
 char	*ft_strupcase(char *str)
 {
@@ -28,6 +26,9 @@ char	*ft_strupcase(char *str)
 	return (str);
 }
 
+/*
+#include <stdio.h>
+
 int	main(void)
 {
 	char str[] = "hEl42Lo";
@@ -35,3 +36,4 @@ int	main(void)
 //	printf("%s", str);
 	printf("%s", ft_strupcase(str)); 
 }
+*/
